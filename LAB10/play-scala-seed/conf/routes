@@ -1,0 +1,5 @@
+GET     /students                           controllers.HomeController.students
+GET     /                                   controllers.HomeController.index
+GET     /student/:index                     controllers.HomeController.student(index)
+GET     /lectures                           controllers.HomeController.lectures
+GET     /lecture/:index                     controllers.HomeController.lecture(index)

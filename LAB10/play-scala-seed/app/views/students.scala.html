@@ -1,0 +1,9 @@
+@(students : List[Student])
+<h1>Welcome to list of students!</h1>
+<ul>
+    @for(student <- students) {
+    <li>@student.name</li>
+    }
+</ul>
+
+

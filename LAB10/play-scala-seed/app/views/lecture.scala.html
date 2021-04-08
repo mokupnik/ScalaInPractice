@@ -1,0 +1,11 @@
+@(lecture: Lecture, students : List[Student])
+<h1>Enrollment information for @lecture.name which has id @lecture.id</h1>
+<ul>
+    List of students attending the class:
+    @for(student <- students) {
+    <li> @student.name</li>
+
+    }
+</ul>
+
+

@@ -1,0 +1,9 @@
+@(students :List[Student], index : String)
+<h1>Information on student with id : @index</h1>
+<ul>@for(student <- students) {
+    <li>Name :  @student.name</li>
+    <li>Year : @student.year</li>
+    }
+</ul>
+
+

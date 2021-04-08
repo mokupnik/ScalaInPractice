@@ -1,0 +1,9 @@
+@(lectures : List[Lecture])
+<h1>Welcome to the list of lectures!</h1>
+<ul>
+    @for(lecture <- lectures) {
+    <li>@lecture.id which is @lecture.name</li>
+    }
+</ul>
+
+
